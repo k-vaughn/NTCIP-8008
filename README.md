@@ -39,7 +39,7 @@ This project uses the following tools:
 - Git
 - GitHub
 - MkDocs
-- Materials for MkDocs
+- Material for MkDocs
 
 The proess to install the local environment is defined in the
 [documentation conventions](https://k-vaughn.github.io/ITS-open-source/)
@@ -56,7 +56,7 @@ NTCIP community. As such it is hosted on the proposer's
 
 ### Overview
 
-The ITS Openb-Source Process defines the process to be used to maintain
+The ITS Open-Source Process defines the process to be used to maintain
 open-source resources of the NTCIP Joint Committee. This specification itself
 is proposed to be an open-source resource, which is maintained by the process
 defined by the specification. Anyone who wishes to contribute to or maintain an
