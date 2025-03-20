@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 -->
 <div style="text-align: center;">
   <img alt="NTCIP" src="images/NTCIP.jpg">
-  <h1>NTCIP 8008 Intelligent Transportation Systems (ITS) Open-Source Development</h1>
+  <h1>NTCIP 8008<br />Intelligent Transportation Systems (ITS)<br />Open-Source Development</h1>
   <strong>An open-source specification of the NTCIP Joint Committee</strong>
 </div>
 <!-- markdownlint-enable MD033 -->
