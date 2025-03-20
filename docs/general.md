@@ -7,7 +7,7 @@
 
 ## Scope {.body}
 
-This document specifies the process used to produce open-source projects within
+This document specifies the process used to produce open-source documents within
 the field of Intelligent Transportation Systems (ITS).
 
 The process follows general practices within the larger open-source community;
@@ -26,9 +26,7 @@ open-sauced is written as an informative guide and describes how systems can
 work; this document is written as a specification to define how the ITS
 Open-Source Process will work. While still providing a discussion of the
 issues; it highlights the requirements and notable options along the way by
-stating each in its own paragraph, starting the paragraph with the requirement
-(REQ) or option (OPT) number. Conditional requirements are listed as
-requirements, but include a condition in the text (e.g., If X, then ...). The
+stating each in its own paragraph. The
 remaining text provides further guidance and can include additional options
 that do not necessitate specific numbering.
 
