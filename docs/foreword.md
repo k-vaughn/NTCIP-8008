@@ -47,8 +47,8 @@ publication, input of users and other interested parties was sought and
 evaluated.
 
 Comments on open-source projects can be submitted either on the
-[discussions](https://github.com/k-vaughn/ITS-open-source/discussions)
-or [issues](https://github.com/k-vaughn/ITS-open-source/issues) tab of the
+[discussions](https://github.com/ite-org/NTCIP-8008/discussions)
+or [issues](https://github.com/ite-org/NTCIP-8008/issues) tab of the
 project.
 
 Discussions can be initiated at any time and anyone in the community can

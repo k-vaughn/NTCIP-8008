@@ -26,7 +26,8 @@ open-sauced is written as an informative guide and describes how systems can
 work; this document is written as a specification to define how the ITS
 Open-Source Process will work. While still providing a discussion of the
 issues; it highlights the requirements and notable options along the way by
-stating each in its own paragraph. The
+stating each in its own paragraph and boldfacing the keywords "shall" and "may"
+to clearly designate requirements and options. The
 remaining text provides further guidance and can include additional options
 that do not necessitate specific numbering.
 

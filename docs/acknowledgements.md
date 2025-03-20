@@ -3,9 +3,9 @@
 This document was prepared though an open-source standards development process
 with the following active contributors:
 
-[![Contributors](https://img.shields.io/github/contributors/k-vaughn/ITS-open-source)](https://github.com/k-vaughn/ITS-open-source/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/ite-org/NTCIP-8008)](https://github.com/ite-org/NTCIP-8008/graphs/contributors)
 
-Check out the full list of [contributors here](https://github.com/k-vaughn/ITS-open-source/graphs/contributors).
+Check out the full list of [contributors here](https://github.com/ite-org/NTCIP-8008/graphs/contributors).
 
 In addition, the following submitted comments during the process:
 

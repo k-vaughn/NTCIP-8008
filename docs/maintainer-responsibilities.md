@@ -125,7 +125,7 @@ the project
 - [OpenSauced App](https://github.com/open-sauced/app/blob/beta/README.md)
 - [Astro documentation](https://github.com/withastro/astro/blob/main/README.md)
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp/blob/main/README.md)
-- [ITS Open-Source Process](https://github.com/k-vaughn/ITS-open-source/blob/main/README.md)
+- [ITS Open-Source Process](https://github.com/ite-org/NTCIP-8008/blob/main/README.md)
 
 ### Installation Guidance {.body}
 
@@ -266,8 +266,8 @@ The maintainer **shall** develop the forms using YAML per the
     like`feature`, `needs triage`, or `bug` to quickly identify the type of issue.
 
 !!! example
-    [`.github/ISSUE_TEMPLATE/documentation_bug.yml`](https://github.com/k-vaughn/ITS-open-source/tree/main/.github/ISSUE_TEMPLATE/documentation_bug.yml)
-    or [`.github/ISSUE_TEMPLATE/documentation_enhancement.yml`](https://github.com/k-vaughn/ITS-open-source/tree/main/.github/ISSUE_TEMPLATE/documentation_enhancement.yml)
+    [`.github/ISSUE_TEMPLATE/documentation_bug.yml`](https://github.com/ite-org/NTCIP-8008/tree/main/.github/ISSUE_TEMPLATE/documentation_bug.yml)
+    or [`.github/ISSUE_TEMPLATE/documentation_enhancement.yml`](https://github.com/ite-org/NTCIP-8008/tree/main/.github/ISSUE_TEMPLATE/documentation_enhancement.yml)
 
 ### Pull Request Templates {.body}
 
@@ -280,7 +280,7 @@ The maintainer **shall** define appropriate pull request templates.
     opening pull requests in your project.
 
 !!! example
-    [.github/PULL_REQUEST_TEMPLATE/PULL_REQUEST_TEMPLATE.md](https://github.com/k-vaughn/ITS-open-source/tree/main/.github/PULL_REQUEST_TEMPLATE/PULL_REQUEST_TEMPLATE.md)
+    [.github/PULL_REQUEST_TEMPLATE/PULL_REQUEST_TEMPLATE.md](https://github.com/ite-org/NTCIP-8008/tree/main/.github/PULL_REQUEST_TEMPLATE/PULL_REQUEST_TEMPLATE.md)
 
 !!! tip
     You can learn more about [creating a pull request template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
@@ -319,7 +319,7 @@ include a `.gitignore` file.
     a static website for review. This directory is not intended to be part of
     the registry as GitHub will produce its own generated site. In this case,
     the project is to include a `.gitignore` file that contains the line "site/",
-    as for this [project](https://github.com/k-vaughn/ITS-open-source/blob/main/.gitignore).
+    as for this [project](https://github.com/ite-org/NTCIP-8008/blob/main/.gitignore).
 
 ### Mkdocs.yml File {.body}
 
@@ -338,7 +338,7 @@ define a `mkdocs.yml` file.
     - other details
 
 !!! example
-    [Mkdocs file for ITS Open-Source Process](https://github.com/k-vaughn/ITS-open-source/blob/main/mkdocs.yml)
+    [Mkdocs file for ITS Open-Source Process](https://github.com/ite-org/NTCIP-8008/blob/main/mkdocs.yml)
 
 ### Deploy.yml File {.body}
 
@@ -353,7 +353,7 @@ GitHub Pages.
     material when a pull request is merged.
 
 !!! example
-    [Deploy file for ITS Open-Source Process](https://github.com/k-vaughn/ITS-open-source/blob/main/.github/workflows/deploy.yml)
+    [Deploy file for ITS Open-Source Process](https://github.com/ite-org/NTCIP-8008/blob/main/.github/workflows/deploy.yml)
 
 ### Index File {.body}
 
@@ -385,7 +385,7 @@ process defined for the project.
     page.
 
 !!! example
-    [Main.html file for ITS Open-Source Process](https://github.com/k-vaughn/ITS-open-source/blob/main/overrides/main.html)
+    [Main.html file for ITS Open-Source Process](https://github.com/ite-org/NTCIP-8008/blob/main/overrides/main.html)
 
 ### Nav.html File {.body}
 
@@ -399,7 +399,7 @@ to the left-hand navigation menu to be "Contents".
     nav.html file is provided to change this to "Contents".
 
 !!! example
-    [Nav.html file for ITS Open-Source Process](https://github.com/k-vaughn/ITS-open-source/blob/main/overrides/partials/nav.html)
+    [Nav.html file for ITS Open-Source Process](https://github.com/ite-org/NTCIP-8008/blob/main/overrides/partials/nav.html)
 
 ### Toc.html File {.body}
 
@@ -413,7 +413,7 @@ to the navigation menu on the right side of the screen.
     standard toc.html file changes this to the title of the current page.
 
 !!! example
-    [Toc.html file for ITS Open-Source Process](https://github.com/k-vaughn/ITS-open-source/blob/main/overrides/partials/toc.html)
+    [Toc.html file for ITS Open-Source Process](https://github.com/ite-org/NTCIP-8008/blob/main/overrides/partials/toc.html)
 
 ## Define Project Structure {.body}
 
