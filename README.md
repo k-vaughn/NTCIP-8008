@@ -8,7 +8,7 @@
 
 ## Important Links
 
-- [Website for most recent version](https://ite-org.github.io/NTCIP-8008/)
+- [Website for most recent version](https://k-vaughn.github.io/NTCIP-8008/)
 - [PDF of most recent version](https://ite-org.github.io/NTCIP-8008/)
 - [Previously released versions](https://www.github.com/ite-org/NTCIP-8008/releases)
 - [Discussion forum](https://ite-org.github.io/NTCIP-8008/discussions)
