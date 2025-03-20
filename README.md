@@ -8,11 +8,11 @@
 
 ## Important Links
 
-- [Website for most recent version](https://ite-org.github.io/ITS-open-source/)
-- [PDF of most recent version](https://ite-org.github.io/ITS-open-source/)
-- [Previously released versions](https://www.github.com/ite-org/ITS-open-source/releases)
-- [Discussion forum](https://ite-org.github.io/ITS-open-source/discussions)
-- [Report an issue](https://ite-org.github.io/ITS-open-source/issues)
+- [Website for most recent version](https://ite-org.github.io/NTCIP-8008/)
+- [PDF of most recent version](https://ite-org.github.io/NTCIP-8008/)
+- [Previously released versions](https://www.github.com/ite-org/NTCIP-8008/releases)
+- [Discussion forum](https://ite-org.github.io/NTCIP-8008/discussions)
+- [Report an issue](https://ite-org.github.io/NTCIP-8008/issues)
 - [Report a security issue](SECURITY.md)
 - [Requirements for making contributions](CONTRIBUTING.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
@@ -23,13 +23,13 @@
 ## Installation Instructions
 
 This is a documentation-only project. The current version of the document is
-available as a [website](https://ite-org.github.io/ITS-open-source/) or as a
-[pdf file](https://ite-org.github.io/ITS-open-source/pdf) that can be
+available as a [website](https://ite-org.github.io/NTCIP-8008/) or as a
+[pdf file](https://ite-org.github.io/NTCIP-8008/pdf) that can be
 downloaded. Contributors will need to
-[fork](https://ite-org.github.io/ITS-open-source/contributor-responsibilities/#fork-the-repository)
-and [clone](https://ite-org.github.io/ITS-open-source/contributor-responsibilities/#clone-the-repository)
+[fork](https://ite-org.github.io/NTCIP-8008/contributor-responsibilities/#fork-the-repository)
+and [clone](https://ite-org.github.io/NTCIP-8008/contributor-responsibilities/#clone-the-repository)
 the repository and
-[establish the development environment](https://ite-org.github.io/ITS-open-source/contributor-responsibilities/#install-software)
+[establish the development environment](https://ite-org.github.io/NTCIP-8008/contributor-responsibilities/#install-software)
 on their local machine so that they can ensure that their edits are rendered as
 expected.
 
@@ -41,8 +41,8 @@ This project uses the following tools:
 - Material for MkDocs
 
 The proess to install the local environment is defined in the
-[documentation conventions](https://ite-org.github.io/ITS-open-source/)
-of the [ITS Open-Source Process](https://ite-org.github.io/ITS-open-source/)
+[documentation conventions](https://ite-org.github.io/NTCIP-8008/)
+of the [ITS Open-Source Process](https://ite-org.github.io/NTCIP-8008/)
 with no exceptions or extensions.
 
 ## Project Summary
@@ -58,7 +58,7 @@ open-source resources of the NTCIP Joint Committee. This specification itself
 is proposed to be an open-source resource, which is maintained by the process
 defined by the specification. Anyone who wishes to contribute to or maintain an
 NTCIP open-source resource project should start by familiarizing themselves with
-[this process](https://ite-org.github.io/ITS-open-source/).
+[this process](https://ite-org.github.io/NTCIP-8008/).
 
 This specification is adapted from the
 [OpenSauced Introduction](https://github.com/open-sauced/intro) and tailored to
@@ -127,7 +127,7 @@ All updates to the project are initiated by a stakeholder first reporting an
 issue. Issues can be as minor as reporting a typo or as major as suggesting a
 new section or complete rewrite of the document. If you have identified an
 issue, please submit it on our
-[Issues](https://ite-org.github.io/ITS-open-source/issues) page.
+[Issues](https://ite-org.github.io/NTCIP-8008/issues) page.
 
 When submitting an issue, the commenter is required to identify the type of
 issue and then provide specific information for that issue. Issue types that are
