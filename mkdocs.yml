@@ -59,8 +59,12 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets:
       auto_append:
-        - docs/glossary.md
-  - pymdownx.superfences
+        - resources/glossary.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - toc:
       permalink: true
 extra:
@@ -68,4 +72,6 @@ extra:
     highlight: true
   hide:
     - title
-    
+extra_javascript:
+  - https://unpkg.com/mermaid@11.6.1/dist/mermaid.min.js
+  - assets/javascripts/mermaid-init.js
