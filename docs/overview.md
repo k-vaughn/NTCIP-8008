@@ -17,7 +17,7 @@ the following clauses:
 
 Figure 1 provides an overview of the process to establish a new open-source project.
 
-``` mermaid
+```mermaid
 %%{init: { 'sequence': { 'mirrorActors': false } }}%%
 sequenceDiagram
   participant Proposer
@@ -79,7 +79,7 @@ The Maintainer is also responsible for creating any necessary branches for devel
 Figure 2 provides an overview of how comments are processed for an open-source
 project.
 
-``` mermaid
+```mermaid
 %%{init: { 'sequence': { 'mirrorActors': false } }}%%
 sequenceDiagram
   participant Commenter
@@ -118,7 +118,7 @@ adds tags as appropriate to the issue so that it can properly be managed.
 
 Figure 3 provides an overview of processing contributions to an open-source project.
 
-``` mermaid
+```mermaid
 %%{init: { 'sequence': { 'mirrorActors': false } }}%%
 sequenceDiagram
   participant WG as Working Group
@@ -172,7 +172,7 @@ request and the changes will be merged into the open-source project.
 Figure 4 provides an overview of the process to approve a new release of an
 open-source project.
 
-``` mermaid
+```mermaid
 %%{init: { 'sequence': { 'mirrorActors': false } }}%%
 sequenceDiagram
   participant AG as Approval Group

@@ -13,10 +13,12 @@ the field of Intelligent Transportation Systems (ITS).
 The process follows general practices within the larger open-source community;
 however, this document:
 
-- provides a step-by-step overview of the process, so that those unfamiliar with
+a. provides a step-by-step overview of the process, so that those unfamiliar with
 open-source processes can better understand the process and become contributors,
-- formalizes the process (e.g., by clearly defining what are requirements), and
-- tailors the process (e.g., by defining the preferred tools to be used).
+
+a. formalizes the process (e.g., by clearly defining what are requirements), and
+
+c. tailors the process (e.g., by defining the preferred tools to be used).
 
 The process to approve the resultant product is defined elsewhere (e.g., NTCIP 8001).
 

@@ -8,6 +8,7 @@ nav:
     - Acknowledgements: acknowledgements.md
     - Foreword: foreword.md
     - Introduction: introduction.md
+#    - Table of Contents: toc.md
   - 1 General: general.md
   - 2 Overview: overview.md
   - 3 Commenter Responsibilities: commenter-responsibilities.md
@@ -34,14 +35,16 @@ theme:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/pdf.css
+docs_dir: docs
 plugins:
   - search
   - git-revision-date-localized:
       type: date
-  - pdf-export:
+  - with-pdf: # Requires extra script to convert Mermaid to SVG
+      cover_title: NTCIP IFR-8008
+      toc_level: 3
+      output_path: pdf/NTCIPifr8008.pdf
       enabled_if_env: 'EXPORT_PDF'
-      combined: true
-      combined_output_path: pdf/NTCIPifr8008.pdf
 markdown_extensions:
   - abbr
   - admonition
@@ -72,6 +75,3 @@ extra:
     highlight: true
   hide:
     - title
-extra_javascript:
-  - https://unpkg.com/mermaid@11.6.1/dist/mermaid.min.js
-  - assets/javascripts/mermaid-init.js
