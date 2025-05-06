@@ -70,3 +70,5 @@ extra:
     - title
   version:
     provider: mike
+    alias: true
+    default: latest
