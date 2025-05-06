@@ -72,8 +72,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          mike deploy $RELEASE_TAG
-          mike set-default $RELEASE_TAG
+          mike set-default $RELEASE_TAG --allow-undefined
+          mike deploy $RELEASE_TAG --branch=gh-pages --push
 
       # Step 9: Deploy the site to GitHub Pages (gh-pages branch)
       #- name: Deploy to GitHub Pages
