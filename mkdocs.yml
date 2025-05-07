@@ -3,11 +3,11 @@ site_description: ITS Open Source Process {{ release-number }}
 repo_url: https://github.com/k-vaughn/ITS-open-source
 nav:
   - Front Matter:
-    - Title Page: index.md
-    - Notices: notices.md
-    - Acknowledgements: acknowledgements.md
-    - Foreword: foreword.md
-    - Introduction: introduction.md
+      - Title Page: index.md
+      - Notices: notices.md
+      - Acknowledgements: acknowledgements.md
+      - Foreword: foreword.md
+      - Introduction: introduction.md
   - 1 General: general.md
   - 2 Overview: overview.md
   - 3 Commenter Responsibilities: commenter-responsibilities.md
@@ -17,7 +17,7 @@ nav:
   - A Code of Conduct: code-of-conduct.md
   - B Documentation Conventions: documentation-conventions.md
   - C Coding Conventions: coding-conventions.md
-site_url: https://github.com/k-vaughn/ITS-open-source
+site_url: https://erisbacker-volpe.github.io/NTCIP-8008/
 copyright: <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/k-vaughn/ITS-open-source">ITS Open-Source Process</a> by <span property="cc:attributionName">NTCIP</span> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 theme:
   name: material
@@ -39,7 +39,7 @@ plugins:
   - git-revision-date-localized:
       type: date
   - pdf-export:
-      enabled_if_env: 'EXPORT_PDF'
+      enabled_if_env: "EXPORT_PDF"
       combined: true
       combined_output_path: pdf/NTCIPx8008.pdf
 markdown_extensions:
@@ -68,4 +68,7 @@ extra:
     highlight: true
   hide:
     - title
-    
+  version:
+    provider: mike
+    alias: true
+    default: latest
