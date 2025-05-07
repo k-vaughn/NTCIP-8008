@@ -2,7 +2,7 @@
 
 ## Copyright
 
-[ITS Open-Source Process](https://github.com/k-vaughn/ITS-open-source) is
+[ITS Open-Source Process](https://github.com/ite-org/NTCIP-8008) is
 licensed under the **Creative Commons Attribution 4.0 International**
 [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by:

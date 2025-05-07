@@ -272,7 +272,7 @@ Each file representing an annex of the document **shall**:
 ### Adding Definitions to the Glossary {.annex}
 
 If you add definitions to the project's
-[glossary](https://github.com/k-vaughn/ITS-open-source/resources/glossary.md),
+[glossary](https://github.com/ite-org/NTCIP-8008/resources/glossary.md),
 ensure the definitions are added **alphabetically**.
 
 ### Frequently Used Markdown {.annex}

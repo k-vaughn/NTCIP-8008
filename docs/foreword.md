@@ -2,17 +2,17 @@
 
 ## Overview
 
-This document is an NTCIP Open-Source Experimental Specification for an NTCIP
-Process, Control, and Information Management document.
+This document is an NTCIP Open-Source NTCIP
+Process, Control, and Information Management document provided as Interim for Field Release (IFR).
 
 Open-source documents are developed using the ITS Open-Source Process, as
-defined in NTCIP X8008. This process provides an open standards development
+defined in NTCIP IFR-8008. This process provides an open standards development
 process that accepts issues reported by the community and resolved by
 peer-reviewed contributions from the community. The open source process
 concludes with the resultant material being approved by the defined approval
 process.
 
-Experimental specifications are approved through a streamlined process focused
+IFR documents are approved through a streamlined process focused
 on the technical experts of the community (e.g., those participating in the
 open-source development process) rather than through a formal ballot of industry
 managers.
@@ -27,12 +27,11 @@ type of product, such as a guide, a technical specification, a test procedure
 (e.g., including code), etc.
 
 The approval process for the resultant open-source product is based on the
-target level of specification. For example, an experimental specification
-undergoes a less formal approval process than a full standard.
+target level of specification. For example, an IFR specification undergoes a less formal approval process than a full standard.
 
 ## Approvals
 
-Experimental specifications are peer reviewed within the open-source process
+IFRs are peer reviewed within the open-source process
 with final approval by an associated WG established by the NTCIP Joint
 Committee.
 
@@ -48,8 +47,8 @@ publication, input of users and other interested parties was sought and
 evaluated.
 
 Comments on open-source projects can be submitted either on the
-[discussions](https://github.com/k-vaughn/ITS-open-source/discussions)
-or [issues](https://github.com/k-vaughn/ITS-open-source/issues) tab of the
+[discussions](https://github.com/ite-org/NTCIP-8008/discussions)
+or [issues](https://github.com/ite-org/NTCIP-8008/issues) tab of the
 project.
 
 Discussions can be initiated at any time and anyone in the community can
@@ -67,7 +66,7 @@ standards approval process). However, updates to the projects are still version
 controlled so that users can reference a specific version of the project without
 fear of it changing.
 
-Comment should use the templates provided on the website; otherwise they may be ignored.
+Comments should use the templates provided on the website; otherwise they may be ignored.
 
 ## History
 
