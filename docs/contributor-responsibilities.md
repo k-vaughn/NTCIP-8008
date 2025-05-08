@@ -20,6 +20,10 @@ root directory:
 - **README.md**: Provides an overview of the specific project,
 - **CODE_OF_CONDUCT.md**: Identifies the code of conduct for the project, and
 - **CONTRIBUTING.md**: Identifies project-specific rules for contributing.  
+- **LICENSE.md**: Identifies the license agreement for project files
+
+!!! question "Needs Review"
+    We need to make sure that our standard license addresses all concerns. To date, it sounds as if CC-BY is a reasonable approach for documentation and BSD 3 clause is acceptable for code. MIBs probably need a custom license that falls in between these two and restricts the types of changes and use.
 
 For projects following the ITS Open-Source Process, the last two files will
 typically only identify exceptions or extensions to the rules defined by this
@@ -136,6 +140,9 @@ Those wishing to contribute **shall** fork the repository to their own account.
     For complate details, see the [Fork a
     Repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
     article on GitHub help.
+
+!!! note
+    Each project has a LICENSE.md file that defines its copyright. Projects are encuraged to use CC-BY for documents, BSD 3-clause for code, and the NTCIP MIB copyright for MIBs.
 
 ### Clone the repository {.body}
 

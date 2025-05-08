@@ -8,16 +8,15 @@ workflow.
 
 ## General Rules
 
-This project follows the [ITS Open-Source Process](https://k-vaughn.github.io/ITS-open-source/)
+This project follows the [ITS Open-Source Process](https://ite-org.github.io/NTCIP-8008/)
 with no exceptions or extensions other than for the approval of pull requests.
 
 By providing a contribution to this project, contributors agree to submit their
 materials according to project's [license](LICENSE.md).
 
-!!! note This project (the project to define the ITS Open Source Process) is
+> **NOTE:** This project (the project to define the ITS Open Source Process) is
     reflexive: i.e., the goal of the project is to define the process by which
-    open-source projects are developed, with the ITS Open-Source Process project
-    being one such project.
+    open-source projects are developed, with the ITS Open-Source Process project being one such project.
 
 ## Documentation-Only Project
 
@@ -27,7 +26,7 @@ MIBs. No project setup beyond what is required for the documentation is
 required.
 
 The project documentation is developed according to the
-[ITS Open-Source Process Documentation Conventions](https://k-vaughn.github.io/ITS-open-source/documentation-conventions/)
+[ITS Open-Source Process Documentation Conventions](https://ite-org.github.io/NTCIP-8008/documentation-conventions/)
 with no exceptions or extensions.
 
 ## Approval of Pull Requests
