@@ -38,10 +38,10 @@ plugins:
   - search
   - git-revision-date-localized:
       type: date
-  - pdf-export:
+  - to-pdf:
       enabled_if_env: "EXPORT_PDF"
-      combined: true
-      combined_output_path: pdf/NTCIPx8008.pdf
+      output_path: pdf/NTCIPx8008.pdf
+      download_link: header
 markdown_extensions:
   - abbr
   - admonition

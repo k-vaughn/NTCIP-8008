@@ -25,9 +25,10 @@ jobs:
       # Step 3: Install dependencies
       - name: Install dependencies
         run: |
+          sudo apt install -y weasyprint
           pip install mkdocs-material pymdown-extensions
           pip install mkdocs-git-revision-date-localized-plugin
-          pip install mkdocs-pdf-export-plugin
+          pip install mkdocs-to-pdf
           pip install mike
 
       # Step 4: Get release tag, fall back to current date and time if no tag exists
