@@ -1,6 +1,7 @@
 <!-- markdownlint-enable require-heading-annex -->
+<div class="annex-2" markdown="1">
 <style>
-body { counter-set: section 2; }
+  .annex-2 { counter-set: section 2; }
 </style>
 
 # Documentation Conventions {.annex}
@@ -286,13 +287,13 @@ after the hash symbols and a space.
 
 !!! example
     ```markdown
-    # Heading 1
+    ### Heading 3
 
-    ## Heading 2
+    #### Heading 4
     ```
-    # Heading 1
+    ### Heading 3
 
-    ## Heading 2
+    #### Heading 4
 
 #### Text Formatting {.annex}
 
@@ -449,3 +450,5 @@ Materials for MkDocs supports the following standard admonitions:
 - See the
   [Materials for MkDocs Guide](https://squidfunk.github.io/mkdocs-material/) for
   more information about Materials for MkDocs.
+
+</div>

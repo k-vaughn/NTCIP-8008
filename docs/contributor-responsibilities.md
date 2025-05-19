@@ -1,6 +1,7 @@
 <!-- markdownlint-enable require-heading-body -->
+<div class="section-4" markdown="1">
 <style>
-  body { counter-set: section 4 }
+  .section-4 { counter-set: section 4; }
 </style>
 
 # Contributor Responsibilities {.body}
@@ -539,3 +540,5 @@ Recommended: Download and install GitKraken. Link GitKraken to your GitHub Accou
 
 Make sure to select a directory where you want to store the local copy of the
 repository. This directory needs to be empty
+
+</div>

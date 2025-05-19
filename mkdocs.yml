@@ -45,14 +45,21 @@ plugins:
   - git-revision-date-localized:
       type: date
   - to-pdf:
-      enabled_if_env: "EXPORT_PDF"
-      output_path: pdf/NTCIPx8008.pdf
+      author: "AASHTO / ITE / NEMA"
+      copyright: "CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)"
+      cover_logo: images/NTCIP.jpg
+      cover_subtitle: "https://ite-org.github.io/NTCIP-8008/latest/"
+#      enabled_if_env: "EXPORT_PDF"
+      output_path: pdf/NTCIP-8008.pdf
       download_link: header
+      ordered_chapter_level: 0
 markdown_extensions:
   - abbr
   - admonition
   - attr_list
+  - def_list
   - md_in_html
+  - meta
   - footnotes
   - pymdownx.details
   - pymdownx.emoji:

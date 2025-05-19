@@ -1,9 +1,14 @@
 <!-- markdownlint-enable require-heading-annex -->
+<!-- markdownlint-enable require-heading-annex -->
+<div class="annex-4" markdown="1">
 <style>
-body { counter-set: section 4; }
+  .annex-4 { counter-set: section 4; }
 </style>
 
 # Examples for Material for MkDocs {.annex}
+
+!!! warning
+    Interactive features have limitations when the site is rendered as a PDF.
 
 ## Call-out Blocks {.annex}
 
@@ -93,6 +98,9 @@ Material for MkDocs also allows call-out boxes to be collapsible by using questi
             The type of admonition defines the color and icon used in the banner of the box.
     ```
 
+!!! note
+    When rendered to a PDF, a collapsable box is always shown expanded, but includes a downward arrow (&#8744;) in the title bar.
+
 ### Content Tabs {.annex}
 
 As shown in these examples, boxes can also have multiple tabs. This is achieved by using three equal signs (=).
@@ -117,6 +125,9 @@ As shown in these examples, boxes can also have multiple tabs. This is achieved 
                 The code tab only shows the first two tabs to avoid recursive code.
         ```
 
+!!! tip
+    When rendered to a PDF, the tabs are shown across the top but the content of each tab is displayed in order (with no real distinction between the content of each tab).
+
 ## Annotations {.annex}
 
 If there is a preference to have comments appear by the user clicking and seeing a tooltip, Material for MkDocs also supports annotations
@@ -134,6 +145,9 @@ If there is a preference to have comments appear by the user clicking and seeing
 
         1. More text
     ```
+
+!!! warning
+    When rendered to a PDF, the annotation is rendered largely as the markdown text, minus the `{ .annotate }` line.
 
 ## Footnotes {.annex}
 
@@ -159,6 +173,9 @@ Footnotes are similar to annotations but place the additional information at the
             display to jump back to the location of the footnote in the text.
     ```
 
+!!! tip
+    When rendered to a PDF, the footnote is rendered at the end of the file (e.g., section) where the footnote appears.
+
 ## Abbreviations / Glossary {.annex}
 
 Tooltips can also be used to display term definitions or meanings of abbreviations (abbr). For one-off usage, the file simply includes a line (typically at the end) the indicates the term in square brackets preceded by an asterisk and followed by a colon space and the definition. The line defining the term is not rendered, but the term being defined (e.g., abbr) will be underlined whereever it occurs in the document and hovering over any instance of the term will reveal its definition in a tooltip. By using the auto_append feature, all term definitions can be moved to a separate file and applied to all pages within the project.
@@ -178,6 +195,9 @@ Tooltips can also be used to display term definitions or meanings of abbreviatio
                 - includes/abbreviations.md
     ```
 
+!!! warning
+    When rendered to a PDF, the information in the tooltip is not included in the document.
+
 ## Paragraph attributes {.annex}
 
 The [Attribute Lists](https://python-markdown.github.io/extensions/attr_list/) extension allows to add HTML attributes and CSS classes to [almost every](https://python-markdown.github.io/extensions/attr_list/#limitations) Markdown inline- and block-level element with a special syntax.
@@ -192,37 +212,6 @@ For example, this document marks all headings with the .annex class. This applie
         ```
             ### My heading {.annex}
         ```
-
-## Fields for information from GitHub {.annex}
-
-Users can also obtain information from the GitHub repository per the following examples
-
-!!! example
-    === "GitHub information"
-        Version {{ release_number }}
-
-        Stars {{ stars }}
-
-        Forks {{ forks }}
-
-        !!! note
-            The fields are only populated when rendered on the GitHub account. When rendering on your local 
-            machine using a working directory, the field names are displayed in their brackets since the local
-            working directory does not contain the GitHub information.
-
-    === "Code for GitHub information"
-        ```
-            Version {{ release_number }}
-
-            Stars {{ stars }}
-
-            Forks {{ forks }}
-
-            !!! note
-                The fields are only populated when rendered on the GitHub account. When rendering on your local 
-                machine using a working directory, the field names are displayed in their brackets since the local
-                working directory does not contain the GitHub information.
-        ```    
 
 ## Sortable tables {.annex}
 
@@ -345,6 +334,10 @@ The search feature adds a search field into the page header. Include by includin
 
 Material for MkDocs allows to easily [add the third-party comment system](https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/?h=comment) of your choice to the footer of any page by using theme extension.
 
+## Fields for information from GitHub {.annex}
+
+When using the `mkdocs-git-revision-date-localized` plugin, users can show the release number on the index page using the field `{{ release_number }}`.
+
 ### Version history {.annex}
 
 Material for MkDocs has a powerful [versioning system](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/) that allows a site to maintain a history of all released versions of a document.
@@ -352,3 +345,5 @@ Material for MkDocs has a powerful [versioning system](https://squidfunk.github.
 ### Last edit date for each page {.annex}
 
 The `mkdocs-git-revision-date-localized-plugin` for Material for MkDocs. An example of this appears at the bottom of this page and is enabled by ensuring the git-revision-date-localized feature is listed in the plugins section of your mkdocs.yml file.
+
+</div>

@@ -1,6 +1,7 @@
 <!-- markdownlint-enable require-heading-body -->
+<div class="section-3" markdown="1">
 <style>
-  body { counter-set: section 3; }
+  .section-3 { counter-set: section 3; }
 </style>
 
 # Commenter Responsibilities {.body}
@@ -103,3 +104,5 @@ template without deleting any fields.
      fits with the overall project plan. When reporting a bug, the description 
      needs to be sufficiently detailed so that the reader can reproduce the 
      anomaly.
+
+</div>

@@ -1,6 +1,8 @@
 <!-- markdownlint-enable require-heading-annex -->
+<!-- markdownlint-enable require-heading-annex -->
+<div class="annex-3" markdown="1">
 <style>
-  body { counter-set: section 3; }
+  .annex-3 { counter-set: section 3; }
 </style>
 
 # Coding Conventions {.annex}
@@ -29,3 +31,5 @@ rules.
 
 !!! example
     Pylince
+
+</div>

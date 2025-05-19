@@ -1,6 +1,7 @@
 <!-- markdownlint-enable require-heading-annex -->
+<div class="annex-1" markdown="1">
 <style>
-  body { counter-set: section 1; }
+  .annex-1 { counter-set: section 1; }
 </style>
 
 # Contributor Covenant Code of Conduct {.annex}
@@ -27,3 +28,5 @@ For additional guidelines on the application of this code, see the [Contributor 
 ## Attribution {.annex}
 
 This Code of Conduct is adapted from the [Contributor Covenant, version 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).
+
+</div>

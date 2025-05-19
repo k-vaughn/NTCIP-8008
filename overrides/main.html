@@ -2,7 +2,7 @@
 
 {% block toc %}
 <div class="md-sidebar__title">
-  <h2 class="md-sidebar__title-content">{{ page.meta.title or page.title }}</h2>
+    <h2 class="md-sidebar__title-content">{{ page.meta.title or page.title }}</h2>
 </div>
 {{ super() }} <!-- This ensures the rest of the Table of Contents list is displayed -->
 {% endblock %}
@@ -19,8 +19,8 @@
 {% endblock %}
 
 {% block outdated %}
-  You're not viewing the latest version.
-  <a href="{{ '../' ~ base_url }}">
+You're not viewing the latest version.
+<a href="{{ '../' ~ base_url }}">
     <strong>Click here to go to latest.</strong>
-  </a>
+</a>
 {% endblock %}

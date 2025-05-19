@@ -1,6 +1,7 @@
 <!-- markdownlint-enable require-heading-body -->
+<div class="section-2" markdown="1">
 <style>
-  body { counter-set: section 2; }
+  .section-2 { counter-set: section 2; }
 </style>
 
 # Overview {.body}
@@ -211,3 +212,5 @@ If approval is not received, the maintainer ensures that all of the identified i
 This collaborative process allows open-source projects to evolve through
 contributions from users and developers worldwide, promoting continuous
 improvement while ensuring transparency and accountability.
+
+</div>
