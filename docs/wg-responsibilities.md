@@ -1,6 +1,7 @@
 <!-- markdownlint-enable require-heading-body -->
+<div class="section-6" markdown="1">
 <style>
-  body { counter-set: section 6; }
+  .section-6 { counter-set: section 6; }
 </style>
 
 # WG Responsibilities {.body}
@@ -81,3 +82,5 @@ on what constitutes a release approval.
 !!! example
     A release approval can be as simple as WG consensus or can require a formal
     ballot according to the processes adopted by the full committee.
+
+</div>

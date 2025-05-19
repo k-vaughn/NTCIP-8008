@@ -5,7 +5,7 @@
 </div>
 
 <div style="text-align: center; font-size: 1.5em; font-weight: bold;">
-  NTCIP IFR-8008 {{ release_number }}
+  NTCIP 8008 {{ release_number }}
 </div>
 
 ---

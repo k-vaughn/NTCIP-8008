@@ -1,6 +1,7 @@
 <!-- markdownlint-enable require-heading-body -->
+<div class="section-5" markdown="1">
 <style>
-  body { counter-set: section 5; }
+  .section-5 { counter-set: section 5; }
 </style>
 
 # Maintainer Responsibilities {.body}
@@ -975,3 +976,5 @@ Please read the [GitHub documentation](https://docs.github.com/en/issues/plannin
 to learn more about adding items to your project.
 
 ![GitHub Project Boards GIF](_assets/gifs/create-github-project.gif)
+
+</div>

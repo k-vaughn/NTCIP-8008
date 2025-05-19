@@ -1,6 +1,7 @@
 <!-- markdownlint-enable require-heading-body -->
+<div class="section-1" markdown="1">
 <style>
-  body { counter-reset: section 1; }
+  .section-1 { counter-set: section 1; }
 </style>
 
 # General {.body}
@@ -120,19 +121,17 @@ Electrical and electronic terms not defined in this section or in Webster's New
 Collegiate Dictionary are used in accordance with their definitions in
 ISO/IEC/IEEE 24765:2017.
 
-**backlog**: A backlog is a list of tasks that need to be completed within a
-project. Typically, these are tasks that are not yet assigned to a developer
-and are waiting to be worked on. Sometimes, these could be tasks that were open
-weeks or months ago and are still waiting to be worked on.
+backlog
 
-**branch**: A branch is a separate version of the code that's created for
-development purposes. Branches allow contributors to experiment with changes
-without affecting the main codebase. When changes are ready to be merged into
-the main codebase, they're typically submitted as a pull request.
+:   A backlog is a list of tasks that need to be completed within a project. Typically, these are tasks that are not yet assigned to a developer and are waiting to be worked on. Sometimes, these could be tasks that were open weeks or months ago and are still waiting to be worked on.
 
-**bug**: A bug refers to an error, flaw, or defect in code that adversely affects
-the proper functioning of the software. Open source projects often depend on
-contributions from the community to identify and rectify these bugs.
+branch
+:   A branch is a separate version of the code that's created for development purposes. Branches allow contributors to experiment with changes without affecting the main codebase. When changes are ready to be merged into the main codebase, they're typically submitted as a pull request.
+
+bug
+:   A bug refers to an error, flaw, or defect in code that adversely affects the
+    proper functioning of the software. Open source projects often depend on
+    contributions from the community to identify and rectify these bugs.
 
 **clone**: Cloning is the process used to copy an existing Git repository into
 a new local directory. The `git clone` command will create a new local directory
@@ -254,3 +253,5 @@ making them easier to read and understand.
 **versioning**: Versioning is the process of assigning either unique version
 names or numbers to new releases of your project. Some versions are released as
 "major" versions, while others are released as "minor" versions.
+
+</div>
