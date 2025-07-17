@@ -13,7 +13,7 @@
 Comments on projects using the ITS Open-Source Process are always welcome, no
 matter how seemingly major or minor. Comments are key to improving products. The
 ITS Open-Source Process is designed to facilitate and encourage users to submit
-comments and is therefore kept simple.
+comments and therefore the commenting process is kept simple.
 
 Within the ITS Open-Source Process, comments can be submitted in either the
 discussions or issues tab of the project repository.
@@ -28,7 +28,7 @@ problems or ambiguities in the project contents, develop consensus on project
 priorities, etc.  
 
 Discussions can be started by anyone at any time. Discussions can result in
-refining the concept of one or more issues before submitting formally submitting
+refining the concept of one or more issues before formally submitting
 them as issues.
 
 ### Issues {.body}

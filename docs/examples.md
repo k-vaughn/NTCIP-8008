@@ -60,7 +60,7 @@ Material for MkDocs supports creating call-out boxes for notes, examples, questi
 
 === "Code for Note"
     ```
-        !!! note
+!!! note
             Material for MkDocs allows users to define their own admonition types as well.
     ```
 
@@ -70,7 +70,7 @@ Material for MkDocs supports creating call-out boxes for notes, examples, questi
 
 === "Code for Warning"
     ```
-        !!! warning
+!!! warning
             The type of admonition defines the color and icon used in the banner of the box.
     ```
 
@@ -84,7 +84,7 @@ Material for MkDocs also allows call-out boxes to be collapsible by using questi
 
 === "Code for Note"
     ```
-        ??? note
+??? note
             Material for MkDocs allows users to define their own admonition types as well.
     ```
 
@@ -94,7 +94,7 @@ Material for MkDocs also allows call-out boxes to be collapsible by using questi
 
 === "Code for Warning"
     ```
-        ??? warning
+??? warning
             The type of admonition defines the color and icon used in the banner of the box.
     ```
 
@@ -225,8 +225,8 @@ Standard markdown supports tables; Material for MkDocs allows for extending this
     |WG 5  | Fee and toll collection |
     |WG 7  | General fleet management and commercial/freight|
     |WG 8  | Public transport/emergency |
-    |WG 9|Integrated transport information, management and control|
-    |WG 10|Traveller information systems|
+    |WG 9  |Integrated transport information, management and control|
+    |WG 10 |Traveller information systems|
     |WG 14 | Driving automation and active safety systems|
     |WG 16 | Communications |
     |WG 17 | Nomadic Devices in ITS Systems |
@@ -252,7 +252,7 @@ Standard markdown supports tables; Material for MkDocs allows for extending this
     ```
 
 === "Sortable table code"
-    ```
+    ``` markdown
         |Group | Title                 |
         |:----:|:----------------------|
         |WG 1  | Architecture          |
@@ -269,6 +269,9 @@ Standard markdown supports tables; Material for MkDocs allows for extending this
         |WG 19 | Mobility integration |
         |WG 20 | Big Data and Artificial Intelligence supporting ITS |
     ```
+
+!!! warning
+    When rendered to a PDF, the ability to sort table rows is lost.
 
 ## Mermaid diagrams {.annex}
 
@@ -296,6 +299,8 @@ Material for MkDocs supports Mermaid diagrams. Mermaid allows for relatively sim
           Maintainer ->> Repo: Create appropriate branches for work
         ```
 
+        <figure><figcaption class="annex">Example sequence diagram</figcaption></figure>
+
     === "Sequence diagram code"
         ```
             ```mermaid
@@ -317,7 +322,12 @@ Material for MkDocs supports Mermaid diagrams. Mermaid allows for relatively sim
               Maintainer ->> Repo: Post project plan
               Maintainer ->> Repo: Create appropriate branches for work
             ```
+
+            <figure><figcaption class="annex">Example sequence diagram</figcaption></figure>
         ```
+
+!!! warning
+    With the current PDF generator, Mermaid diagrams need to be converted to SVGprior to including in the file.
 
 ## Additional features {.annex}
 
