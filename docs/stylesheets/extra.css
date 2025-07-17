@@ -9,6 +9,10 @@ body.frontmatter h1 {
 }
 
 /* Reset the section counter and prepare for subsections */
+body {
+    counter-set: section var(--section-number);
+}
+
 h1 {
     counter-reset: subsection;
     counter-reset: figure;
@@ -39,25 +43,25 @@ figcaption {
     counter-increment: figure;
 }
 
-/* Section numbering for body */
-h1.body::before {
-    content: "Section " counter(section) " ";
+/* Section numbering for body and annex (unified with variable) */
+h1::before {
+    content: "Section " counter(section, var(--section-style)) " ";
 }
 
-h2.body::before {
-    content: counter(section) "." counter(subsection) " ";
+h2::before {
+    content: counter(section, var(--section-style)) "." counter(subsection) " ";
 }
 
-h3.body::before {
-    content: counter(section) "." counter(subsection) "." counter(subsubsection) " ";
+h3::before {
+    content: counter(section, var(--section-style)) "." counter(subsection) "." counter(subsubsection) " ";
 }
 
-h4.body::before {
-    content: counter(section) "." counter(subsection) "." counter(subsubsection) "." counter(subsubsubsection) " ";
+h4::before {
+    content: counter(section, var(--section-style)) "." counter(subsection) "." counter(subsubsection) "." counter(subsubsubsection) " ";
 }
 
-h5.body::before {
-    content: counter(section) "." counter(subsection) "." counter(subsubsection) "." counter(subsubsubsection) "." counter(subsubsubsubsection)" ";
+h5::before {
+    content: counter(section, var(--section-style)) "." counter(subsection) "." counter(subsubsection) "." counter(subsubsubsection) "." counter(subsubsubsubsection) " ";
 }
 
 figcaption {
@@ -65,51 +69,18 @@ figcaption {
 }
 
 figcaption::before {
-
-    content: "Figure " counter(section) "-" counter(figure) " ";
+    content: "Figure " counter(section, var(--section-style)) "-" counter(figure) " ";
     font-weight: bold;
 }
 
 next-fig::before {
     counter-increment: figure 1;
-    content: "Figure " counter(section) "-" counter(figure);
+    content: "Figure " counter(section, var(--section-style)) "-" counter(figure);
 }
 
 next-fig::after {
     counter-increment: figure -1;
     content: '';
-}
-
-/* Section numbering for annex h1 (use upper-alpha) */
-h1.annex::before {
-    content: "Annex " counter(section, upper-alpha) " ";
-}
-
-h2.annex::before {
-    content: counter(section, upper-alpha) "." counter(subsection) " ";
-}
-
-h3.annex::before {
-    content: counter(section, upper-alpha) "." counter(subsection) "." counter(subsubsection) " ";
-}
-
-h4.annex::before {
-    content: counter(section, upper-alpha) "." counter(subsection) "." counter(subsubsection) "." counter(subsubsubsection) " ";
-}
-
-h5.annex::before {
-    content: counter(section, upper-alpha) "." counter(subsection) "." counter(subsubsection) "." counter(subsubsubsection) "." counter(subsubsubsubsection)" ";
-}
-
-figcaption.annex::before {
-
-    content: "Figure " counter(section, upper-alpha) "-" counter(figure) " ";
-    font-weight: bold;
-}
-
-next-fig.annex::before {
-    counter-increment: figure 1;
-    content: "Figure " counter(section, upper-alpha) "-" counter(figure);
 }
 
 /* General styling for status badges */
@@ -156,4 +127,60 @@ next-fig.annex::before {
     background-color: #0AA00A;
     /* Green */
     color: white;
+}
+
+/* TOC numbering (mirrors content structure, uses separate counters to avoid conflicts) */
+.md-nav--secondary {
+    counter-set: toc-section var(--section-number);
+}
+
+.md-nav--secondary .md-nav__list {
+    counter-reset: toc-subsection;
+}
+
+.md-nav--secondary .md-nav__list>.md-nav__item {
+    counter-increment: toc-subsection;
+}
+
+.md-nav--secondary .md-nav__list>.md-nav__item>.md-nav__link::before {
+    content: counter(toc-section, var(--section-style)) "." counter(toc-subsection) " ";
+}
+
+/* Level 3 (h3/subsubsection) */
+.md-nav--secondary .md-nav__list>.md-nav__item>.md-nav>.md-nav__list {
+    counter-reset: toc-subsubsection;
+}
+
+.md-nav--secondary .md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item {
+    counter-increment: toc-subsubsection;
+}
+
+.md-nav--secondary .md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav__link::before {
+    content: counter(toc-section, var(--section-style)) "." counter(toc-subsection) "." counter(toc-subsubsection) " ";
+}
+
+/* Level 4 (h4/subsubsubsection) */
+.md-nav--secondary .md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav>.md-nav__list {
+    counter-reset: toc-subsubsubsection;
+}
+
+.md-nav--secondary .md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item {
+    counter-increment: toc-subsubsubsection;
+}
+
+.md-nav--secondary .md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav__link::before {
+    content: counter(toc-section, var(--section-style)) "." counter(toc-subsection) "." counter(toc-subsubsection) "." counter(toc-subsubsubsection) " ";
+}
+
+/* Level 5 (h5/subsubsubsubsection) */
+.md-nav--secondary .md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav>.md-nav__list {
+    counter-reset: toc-subsubsubsubsection;
+}
+
+.md-nav--secondary .md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item {
+    counter-increment: toc-subsubsubsubsection;
+}
+
+.md-nav--secondary .md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav>.md-nav__list>.md-nav__item>.md-nav__link::before {
+    content: counter(toc-section, var(--section-style)) "." counter(toc-subsection) "." counter(toc-subsubsection) "." counter(toc-subsubsubsection) "." counter(toc-subsubsubsubsection) " ";
 }

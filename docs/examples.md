@@ -1,8 +1,7 @@
 <!-- markdownlint-enable require-heading-annex -->
-<!-- markdownlint-enable require-heading-annex -->
-<div class="annex-4" markdown="1">
+<div markdown="1">
 <style>
-  .annex-4 { counter-set: section 4; }
+    :root { --section-number: 4; --section-style: upper-alpha; }
 </style>
 
 # Examples for Material for MkDocs {.annex}
@@ -14,39 +13,39 @@
 
 ### Code blocks with syntax highlighting {.annex}
 
-Code blocks allow a user to define a block of text that is called out to appear as computer code in a specified language. Material for MkDocs includes [an extension](https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/?h=highligh#highlight) to support a wide range of syntax highlighters (i.e., to colorize keywords) and also allows custom-defined syntax highlighters for user-defined languages. Code blocks start with three tick marks followed by a space and then an indication of the syntax highlter to be used. The block of code is indented with four spaces and the block ends with another three tick mark code.
+Code blocks allow a user to define a block of text that is called out to appear as computer code in a specified language. Material for MkDocs includes [an extension](https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/?h=highligh#highlight) to support a wide range of syntax highlighters (i.e., to colorize keywords) and also allows custom-defined syntax highlighters for user-defined languages. Code blocks start with three tick marks followed by a space and then an indication of the syntax highlighter to be used. The block of code is indented with four spaces and the block ends with another three tick mark code.
 
 === "C++ Example"
     ``` c++
-        for(i = 0; i < max; i++) {
-            // sample loop code
-        }
+    for(i = 0; i < max; i++) {
+        // sample loop code
+    }
     ```
 
 === "C++ Example Code"
-    ```
+    ``` markdown
         ``` c++
-            for(i = 0; i < max; i++) {
-                // sample loop code
-            }
+        for(i = 0; i < max; i++) {
+            // sample loop code
+        }
         ```
     ```
 
 === "ASN.1 Example"
     ``` asn1
+    SEQUENCE OF {
+        item1 INTEGER (0..255),
+        item2 OCTET STRING
+    }
+    ```
+
+=== "ASN.1 Example Code"
+    ``` markdown
+        ``` asn1
         SEQUENCE OF {
             item1 INTEGER (0..255),
             item2 OCTET STRING
         }
-    ```
-
-=== "ASN.1 Example Code"
-    ```
-        ``` asn1
-            SEQUENCE OF {
-                item1 INTEGER (0..255),
-                item2 OCTET STRING
-            }
         ```
     ```
 
@@ -59,9 +58,9 @@ Material for MkDocs supports creating call-out boxes for notes, examples, questi
         Material for MkDocs allows users to define their own admonition types as well.
 
 === "Code for Note"
-    ```
-!!! note
-            Material for MkDocs allows users to define their own admonition types as well.
+    ``` markdown
+    !!! note
+        Material for MkDocs allows users to define their own admonition types as well.
     ```
 
 === "Warning Example"
@@ -69,12 +68,12 @@ Material for MkDocs supports creating call-out boxes for notes, examples, questi
         The type of admonition defines the color and icon used in the banner of the box.
 
 === "Code for Warning"
-    ```
-!!! warning
-            The type of admonition defines the color and icon used in the banner of the box.
+    ``` markdown
+    !!! warning
+        The type of admonition defines the color and icon used in the banner of the box.
     ```
 
-### Collapsable {.annex}
+### Collapsible {.annex}
 
 Material for MkDocs also allows call-out boxes to be collapsible by using question marks instead of the exclamation points.
 
@@ -99,7 +98,7 @@ Material for MkDocs also allows call-out boxes to be collapsible by using questi
     ```
 
 !!! note
-    When rendered to a PDF, a collapsable box is always shown expanded, but includes a downward arrow (&#8744;) in the title bar.
+    When rendered to a PDF, a collapsible box is always shown expanded, but includes a downward arrow (&#8744;) in the title bar.
 
 ### Content Tabs {.annex}
 
@@ -178,7 +177,7 @@ Footnotes are similar to annotations but place the additional information at the
 
 ## Abbreviations / Glossary {.annex}
 
-Tooltips can also be used to display term definitions or meanings of abbreviations (abbr). For one-off usage, the file simply includes a line (typically at the end) the indicates the term in square brackets preceded by an asterisk and followed by a colon space and the definition. The line defining the term is not rendered, but the term being defined (e.g., abbr) will be underlined whereever it occurs in the document and hovering over any instance of the term will reveal its definition in a tooltip. By using the auto_append feature, all term definitions can be moved to a separate file and applied to all pages within the project.
+Tooltips can also be used to display term definitions or meanings of abbreviations (abbr). For one-off usage, the file simply includes a line (typically at the end) the indicates the term in square brackets preceded by an asterisk and followed by a colon space and the definition. The line defining the term is not rendered, but the term being defined (e.g., abbr) will be underlined wherever it occurs in the document and hovering over any instance of the term will reveal its definition in a tooltip. By using the auto_append feature, all term definitions can be moved to a separate file and applied to all pages within the project.
 
 *[abbr]: abbreviation
 

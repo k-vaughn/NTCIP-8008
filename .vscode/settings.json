@@ -7,6 +7,7 @@
     "python.linting.pylintEnabled": true,
     "editor.formatOnSave": true,
     "cSpell.words": [
+        "Anson",
         "CODEOWNERS",
         "commenters",
         "figcaption",
@@ -18,6 +19,7 @@
         "noreferrer",
         "peaceiris",
         "pygments",
+        "pymdown",
         "pymdownx",
         "Qube",
         "roadmaps",
@@ -27,8 +29,10 @@
         "subsubsubsubsection",
         "superfences",
         "tablesort",
+        "Traveller",
         "triaging",
         "twemoji",
-        "weasyprint"
+        "weasyprint",
+        "Yiyi"
     ]
 }
